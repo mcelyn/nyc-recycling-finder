@@ -243,22 +243,6 @@
     "acceptedFacilityTypes": ["dsny_special_waste"]
   },
   {
-    "id": "clothing-textiles",
-    "name": "Clothing, Shoes, Linens & Textiles",
-    "aliases": ["clothing", "clothes", "shoes", "shirt", "pants", "dress", "jeans", "bedsheets", "towels", "curtains", "textiles", "fabric"],
-    "category": "textiles",
-    "curbsideAllowed": false,
-    "canPutInTrash": true,
-    "disposalSummary": "Over 200 million pounds of clothing end up in NYC landfills each year. Textiles should be donated or dropped at textile recycling bins.",
-    "stepByStepInstructions": [
-      "Clean and dry all textiles (items must not be wet or mildewed).",
-      "Place into bags and drop off at GrowNYC Greenmarket collection points, donateNYC locations, Goodwill, or Salvation Army drop-off partners.",
-      "Damaged or torn clothes can still be recycled into insulation and rags as long as they are clean."
-    ],
-    "handlingTips": "Buildings with 10+ units can get a free refashioNYC collection bin placed in their basement or lobby.",
-    "acceptedFacilityTypes": ["electronics_partner", "retail_takeback"]
-  },
-  {
     "id": "pesticides-chemicals",
     "name": "Pesticides, Weed Killers & Pool Chemicals",
     "aliases": ["pesticide", "insecticide", "weed killer", "roundup", "fertilizer", "pool chemicals", "chlorine", "bleach", "corrosive cleaner", "oven cleaner"],

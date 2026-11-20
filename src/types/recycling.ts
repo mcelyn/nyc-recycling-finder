@@ -3,7 +3,6 @@ export type Borough = 'Manhattan' | 'Brooklyn' | 'Queens' | 'Bronx' | 'Staten Is
 export type FacilityType =
   | 'dsny_special_waste'
   | 'electronics_partner'
-  | 'textile_dropoff'
   | 'retail_takeback';
 
 export type WasteCategory =
@@ -12,7 +11,6 @@ export type WasteCategory =
   | 'batteries'
   | 'paint'
   | 'automotive'
-  | 'textiles'
   | 'mercury_lighting'
   | 'appliances';
 

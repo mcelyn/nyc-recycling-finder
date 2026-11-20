@@ -22,7 +22,6 @@ const POPULAR_ITEMS = [
   { id: 'motor-oil', label: 'Motor Oil', icon: '🚗' },
   { id: 'televisions', label: 'TVs & Screens', icon: '📺' },
   { id: 'fluorescent-bulbs', label: 'Fluorescent Bulbs', icon: '💡' },
-  { id: 'clothing-textiles', label: 'Clothing & Textiles', icon: '👕' },
 ];
 
 // Dynamic import for Leaflet map to disable SSR

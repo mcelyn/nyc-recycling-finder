@@ -12,7 +12,6 @@ import {
   Flame,
   Zap,
   Radio,
-  Shirt,
   Paintbrush,
   Car,
 } from 'lucide-react';
@@ -36,8 +35,6 @@ export default function ItemGuidanceCard({
         return <Zap className="w-4 h-4 text-yellow-600" />;
       case 'electronics':
         return <Radio className="w-4 h-4 text-blue-600" />;
-      case 'textiles':
-        return <Shirt className="w-4 h-4 text-purple-600" />;
       case 'paint':
         return <Paintbrush className="w-4 h-4 text-indigo-600" />;
       case 'automotive':
