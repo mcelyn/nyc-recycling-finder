@@ -9,6 +9,7 @@ import ItemSearch from '@/components/ItemSearch';
 import LocationSearch from '@/components/LocationSearch';
 import ItemGuidanceCard from '@/components/ItemGuidanceCard';
 import SiteCard from '@/components/SiteCard';
+import ResultsSummaryCard from '@/components/ResultsSummaryCard';
 import { calculateDistanceInMiles } from '@/utils/geo';
 import { NYC_ZIP_MAP, getBoroughFromZip } from '@/utils/zipCodes';
 import { Recycle, MapPin, Database, AlertCircle, RotateCcw } from 'lucide-react';
@@ -148,6 +149,16 @@ export default function HomePage() {
     return result;
   }, [allSites, selectedItem, selectedBorough, referencePoint]);
 
+  const dsnyCount = useMemo(
+    () => filteredSites.filter((s) => s.facilityType === 'dsny_special_waste').length,
+    [filteredSites]
+  );
+
+  const electronicsCount = useMemo(
+    () => filteredSites.filter((s) => s.facilityType !== 'dsny_special_waste').length,
+    [filteredSites]
+  );
+
   // If a selected site gets filtered out, reset it
   useEffect(() => {
     if (selectedSite && !filteredSites.some((s) => s.id === selectedSite.id)) {
@@ -274,6 +285,17 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
           {/* Left Column: Locations Directory */}
           <div className="lg:col-span-5 flex flex-col space-y-3 order-2 lg:order-1">
+            {/* Small facility type results summary card */}
+            <ResultsSummaryCard
+              totalCount={filteredSites.length}
+              dsnyCount={dsnyCount}
+              electronicsCount={electronicsCount}
+              selectedItem={selectedItem}
+              selectedBorough={selectedBorough}
+              selectedZip={selectedZip}
+              hasUserLocation={!!userLocation}
+            />
+
             {filteredSites.length === 0 ? (
               <div className="bg-white rounded-2xl border border-slate-200 p-8 text-center">
                 <MapPin className="w-8 h-8 text-slate-300 mx-auto mb-2" />
