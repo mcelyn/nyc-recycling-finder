@@ -1,0 +1,277 @@
+[
+  {
+    "id": "nail-polish",
+    "name": "Nail Polish & Acetone Remover",
+    "aliases": ["nail polish", "nail polish remover", "acetone", "nail varnish", "cutex", "nail enamel", "manicure bottle"],
+    "category": "hazardous",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Nail polish and acetone removers contain volatile flammable chemicals and cannot be poured down drains or tossed in standard trash.",
+    "stepByStepInstructions": [
+      "Do NOT pour remaining polish down sinks or storm drains.",
+      "If the bottle is completely empty and dry, it can go into regular metal/glass/plastic recycling with the cap off.",
+      "If any liquid remains, take the bottle to a DSNY Special Waste Drop-Off Site or an upcoming SAFE Disposal event."
+    ],
+    "handlingTips": "Ensure bottles are tightly sealed to prevent spills in transit.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "lithium-batteries",
+    "name": "Lithium-ion & Rechargeable Batteries",
+    "aliases": ["lithium battery", "lithium-ion", "e-bike battery", "scooter battery", "vape battery", "rechargeable battery", "power bank", "phone battery", "laptop battery"],
+    "category": "batteries",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Illegal to discard in trash in NYC. Lithium-ion batteries present severe thermal runaway fire risks in sanitation trucks and facilities.",
+    "stepByStepInstructions": [
+      "Tape both contact terminals with clear packing tape or electrical tape, or place each battery into an individual plastic bag.",
+      "Never puncture, crush, or open damaged or swollen batteries.",
+      "Drop off at retail battery takeback locations (Best Buy, Staples, Home Depot) or DSNY Special Waste Drop-Off Sites."
+    ],
+    "handlingTips": "NY State Rechargeable Battery Law requires retailers that sell rechargeable batteries to accept them back free of charge.",
+    "acceptedFacilityTypes": ["dsny_special_waste", "electronics_partner", "retail_takeback"]
+  },
+  {
+    "id": "alkaline-batteries",
+    "name": "Alkaline Batteries (AA, AAA, C, D, 9V)",
+    "aliases": ["alkaline battery", "aa battery", "aaa battery", "9 volt", "single use battery", "remote battery"],
+    "category": "batteries",
+    "curbsideAllowed": false,
+    "canPutInTrash": true,
+    "disposalSummary": "Modern single-use alkaline batteries manufactured after 1996 contain no added mercury and are legal to put in regular household trash, though special drop-off is encouraged.",
+    "stepByStepInstructions": [
+      "For 9V batteries, tape the terminals with clear tape to prevent sparking.",
+      "You can safely dispose of standard alkaline batteries in regular household trash.",
+      "Alternatively, bring them to a DSNY Special Waste Drop-Off Site for responsible metal recovery."
+    ],
+    "handlingTips": "Be sure to double check that the battery is standard alkaline and NOT lithium or rechargeable before trashing.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "car-battery",
+    "name": "Automotive & Lead-Acid Batteries",
+    "aliases": ["car battery", "motorcycle battery", "marine battery", "lead acid", "auto battery"],
+    "category": "automotive",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Contains toxic lead and corrosive sulfuric acid. NYC law requires auto retailers and service stations to accept them back.",
+    "stepByStepInstructions": [
+      "Keep upright and transport carefully in an acid-resistant container or heavy cardboard box.",
+      "Return to any store that sells car batteries (they are legally required to accept up to two batteries per month, and may refund your core deposit).",
+      "Or take to any DSNY Special Waste Drop-Off Site."
+    ],
+    "handlingTips": "Never tip the battery on its side. Wear gloves if there is any visible corrosion.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "oil-paint",
+    "name": "Oil-Based Paint, Stains & Varnishes",
+    "aliases": ["oil paint", "oil based paint", "wood stain", "varnish", "lacquer", "polyurethane", "paint thinner", "mineral spirits"],
+    "category": "paint",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Classified as toxic and flammable hazardous waste. Cannot be put in curbside trash or poured down any sewer.",
+    "stepByStepInstructions": [
+      "Keep in original labeled container if possible.",
+      "Do NOT allow to dry out indoors due to toxic fumes.",
+      "Deliver to a DSNY Special Waste Drop-Off Site or an official SAFE Disposal event."
+    ],
+    "handlingTips": "DSNY limits drop-offs to up to five gallons per visit for NYC residents.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "latex-paint",
+    "name": "Latex & Water-Based Acrylic Paint",
+    "aliases": ["latex paint", "water based paint", "acrylic paint", "wall paint", "interior paint"],
+    "category": "paint",
+    "curbsideAllowed": false,
+    "canPutInTrash": true,
+    "disposalSummary": "Non-toxic latex paint can go in regular household trash ONLY AFTER being dried and hardened completely.",
+    "stepByStepInstructions": [
+      "Remove the lid and stir in kitty litter, sand, or commercial paint hardener.",
+      "Leave in a well-ventilated area away from children and pets until rock solid.",
+      "Place hardened paint can with lid OFF in a double trash bag next to regular trash.",
+      "Or bring unopened/usable cans to DSNY Special Waste or PaintCare participating hardware stores."
+    ],
+    "handlingTips": "Never discard liquid paint in the trash; sanitation trucks crush the cans and paint will spray across the street.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "motor-oil",
+    "name": "Motor Oil, Transmission & Brake Fluid",
+    "aliases": ["motor oil", "engine oil", "used oil", "transmission fluid", "brake fluid", "antifreeze", "coolant"],
+    "category": "automotive",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Highly hazardous to waterways. Just one gallon of motor oil can contaminate one million gallons of fresh water.",
+    "stepByStepInstructions": [
+      "Drain fluid into a clean, leakproof plastic jug with a secure cap.",
+      "Do NOT mix motor oil with water, gasoline, antifreeze, or solvents.",
+      "Any NY service station or quick lube that sells oil must accept up to 5 gallons per person per day free of charge.",
+      "Or bring to a DSNY Special Waste Drop-Off Site."
+    ],
+    "handlingTips": "Proof of NYC residency (driver's license or utility bill) is required at DSNY sites.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "fluorescent-bulbs",
+    "name": "Fluorescent Light Tubes & CFL Bulbs",
+    "aliases": ["fluorescent bulb", "cfl", "light tube", "compact fluorescent", "tube light", "mercury bulb"],
+    "category": "mercury_lighting",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Contains toxic mercury vapor. Illegal to throw in household trash or recycling.",
+    "stepByStepInstructions": [
+      "Wrap tubes or bulbs in newspaper or bubble wrap to prevent breakage.",
+      "Drop off at retail locations (such as Home Depot, Lowe's, or local hardware stores accepting CFLs).",
+      "Or bring to a DSNY Special Waste Drop-Off Site."
+    ],
+    "handlingTips": "If a bulb breaks, ventilate the room for 15 minutes. Scoop up fragments with cardboard—do not vacuum.",
+    "acceptedFacilityTypes": ["dsny_special_waste", "retail_takeback"]
+  },
+  {
+    "id": "computers-laptops",
+    "name": "Computers, Laptops, Tablets & Monitors",
+    "aliases": ["laptop", "computer", "macbook", "pc", "monitor", "screen", "tablet", "ipad", "chromebook", "desktop tower"],
+    "category": "electronics",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "NYS Electronic Equipment Recycling and Reuse Act bans all computers and monitors from disposal as trash.",
+    "stepByStepInstructions": [
+      "Wipe personal data or remove the hard drive if privacy is a concern.",
+      "Drop off at any authorized electronics drop-off location (Best Buy, Staples, Salvation Army, Goodwill).",
+      "NYC residents in apartment buildings with 10+ units can also enroll in e-cycleNYC for free in-building collection.",
+      "Can also be dropped at any DSNY Special Waste Drop-Off Site."
+    ],
+    "handlingTips": "Staples and Best Buy accept most computers and laptops regardless of brand or condition.",
+    "acceptedFacilityTypes": ["electronics_partner", "dsny_special_waste", "retail_takeback"]
+  },
+  {
+    "id": "televisions",
+    "name": "Televisions (CRT, LCD, OLED)",
+    "aliases": ["tv", "television", "flat screen", "crt tv", "tube tv", "smart tv"],
+    "category": "electronics",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Older CRT TVs contain up to 8 pounds of toxic lead. All TVs are strictly illegal to set out at the curb.",
+    "stepByStepInstructions": [
+      "Drop off at municipal e-waste sites, participating Goodwill/Salvation Army drop-offs, or DSNY Special Waste sites.",
+      "Check with Best Buy before bringing extra-large TVs (some stores have screen size limits).",
+      "Or take to a seasonal SAFE Disposal event."
+    ],
+    "handlingTips": "Do not attempt to break down or remove CRT glass tubes yourself due to implosion risk.",
+    "acceptedFacilityTypes": ["electronics_partner", "dsny_special_waste"]
+  },
+  {
+    "id": "smartphones-cables",
+    "name": "Cell Phones, Cables, Chargers & Keyboards",
+    "aliases": ["phone", "cell phone", "iphone", "android", "charger", "usb cable", "hdmi", "keyboard", "mouse", "headphones"],
+    "category": "electronics",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Small electronics contain valuable copper, gold, and rare-earth metals that can be recycled.",
+    "stepByStepInstructions": [
+      "Perform a factory reset to clear personal data.",
+      "Drop into e-waste bins at any Best Buy, Staples, or Apple Store.",
+      "Or bring to any of the 100+ partner drop-off locations across NYC."
+    ],
+    "handlingTips": "Many wireless carriers also offer trade-in credits or donate functioning phones to charity.",
+    "acceptedFacilityTypes": ["electronics_partner", "dsny_special_waste", "retail_takeback"]
+  },
+  {
+    "id": "small-appliances",
+    "name": "Small Appliances (Toasters, Blenders, Microwaves)",
+    "aliases": ["microwave", "toaster", "blender", "coffee maker", "hair dryer", "vacuum", "iron", "small appliance"],
+    "category": "appliances",
+    "curbsideAllowed": true,
+    "canPutInTrash": false,
+    "disposalSummary": "Appliances mostly made of metal/rigid plastic can go in curbside blue recycling bins, but e-waste partner drop-off is great for reuse.",
+    "stepByStepInstructions": [
+      "Remove batteries or removable cords if applicable.",
+      "Small mostly-metal or rigid plastic appliances can actually go into your regular NYC Blue Bin (metal/glass/plastic curbside recycling).",
+      "Working appliances can also be donated to Goodwill or Salvation Army drop-off partners."
+    ],
+    "handlingTips": "Do not confuse small appliances with refrigerators or air conditioners which require CFC Freon recovery appointments.",
+    "acceptedFacilityTypes": ["electronics_partner", "dsny_special_waste"]
+  },
+  {
+    "id": "air-conditioner",
+    "name": "Air Conditioners, Refrigerators & Dehumidifiers",
+    "aliases": ["air conditioner", "ac", "ac unit", "refrigerator", "fridge", "freezer", "dehumidifier", "freon", "cfc"],
+    "category": "appliances",
+    "curbsideAllowed": true,
+    "canPutInTrash": false,
+    "disposalSummary": "Contains ozone-depleting refrigerants (CFCs / Freon). Requires an official DSNY Freon removal appointment before pickup.",
+    "stepByStepInstructions": [
+      "Schedule a free CFC Recovery Appointment with DSNY at nyc.gov/dsny or by calling 311.",
+      "Place the unit curbside the evening BEFORE your scheduled appointment date with the doors removed or secured.",
+      "Once tagged by DSNY with an official green sticker, sanitation workers will collect it on your next recycling day."
+    ],
+    "handlingTips": "Never cut refrigerant lines or attempt to vent freon gas yourself—it is dangerous and illegal.",
+    "acceptedFacilityTypes": []
+  },
+  {
+    "id": "propane-tanks",
+    "name": "Propane Tanks & Camping Gas Canisters",
+    "aliases": ["propane tank", "bbq gas", "camping gas", "butane canister", "isobutane", "blowtorch tank"],
+    "category": "hazardous",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Extreme explosion hazard. Never place any pressurized gas tank in curbside recycling or standard trash.",
+    "stepByStepInstructions": [
+      "Standard 20-lb grill tanks can be exchanged or returned at hardware stores, Home Depot, or gas stations that participate in Blue Rhino or Amerigas tank exchanges.",
+      "Small camping fuel canisters (1-lb) can be brought to a DSNY Special Waste Drop-Off Site.",
+      "Never puncture pressurized tanks."
+    ],
+    "handlingTips": "Transport tanks upright in a well-ventilated trunk or vehicle bed.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "smoke-detectors",
+    "name": "Smoke Detectors & Carbon Monoxide Alarms",
+    "aliases": ["smoke detector", "smoke alarm", "fire alarm", "co detector", "carbon monoxide alarm"],
+    "category": "hazardous",
+    "curbsideAllowed": false,
+    "canPutInTrash": true,
+    "disposalSummary": "Ionization smoke alarms contain trace amounts of Americium-241 (radioactive isotope). DSNY permits regular trash disposal once battery is removed, or manufacturer mailback.",
+    "stepByStepInstructions": [
+      "Remove the 9V or lithium backup battery and recycle the battery separately.",
+      "Check the back of the detector: if marked 'Ionization', you may mail it back to the manufacturer (address listed on the label).",
+      "DSNY allows non-battery smoke alarm bodies to be discarded in ordinary household trash if mail-back is unavailable."
+    ],
+    "handlingTips": "Never disassemble the sealed ionization sensor chamber.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  },
+  {
+    "id": "clothing-textiles",
+    "name": "Clothing, Shoes, Linens & Textiles",
+    "aliases": ["clothing", "clothes", "shoes", "shirt", "pants", "dress", "jeans", "bedsheets", "towels", "curtains", "textiles", "fabric"],
+    "category": "textiles",
+    "curbsideAllowed": false,
+    "canPutInTrash": true,
+    "disposalSummary": "Over 200 million pounds of clothing end up in NYC landfills each year. Textiles should be donated or dropped at textile recycling bins.",
+    "stepByStepInstructions": [
+      "Clean and dry all textiles (items must not be wet or mildewed).",
+      "Place into bags and drop off at GrowNYC Greenmarket collection points, donateNYC locations, Goodwill, or Salvation Army drop-off partners.",
+      "Damaged or torn clothes can still be recycled into insulation and rags as long as they are clean."
+    ],
+    "handlingTips": "Buildings with 10+ units can get a free refashioNYC collection bin placed in their basement or lobby.",
+    "acceptedFacilityTypes": ["electronics_partner", "retail_takeback"]
+  },
+  {
+    "id": "pesticides-chemicals",
+    "name": "Pesticides, Weed Killers & Pool Chemicals",
+    "aliases": ["pesticide", "insecticide", "weed killer", "roundup", "fertilizer", "pool chemicals", "chlorine", "bleach", "corrosive cleaner", "oven cleaner"],
+    "category": "hazardous",
+    "curbsideAllowed": false,
+    "canPutInTrash": false,
+    "disposalSummary": "Toxic chemicals are hazardous to sanitation workers, wildlife, and groundwater. They must be managed by specialized hazardous waste facilities.",
+    "stepByStepInstructions": [
+      "Keep chemicals in their original containers with labels intact.",
+      "Never mix different chemical products together.",
+      "Bring directly to a DSNY Special Waste Drop-Off Site or an upcoming NYC SAFE Disposal event."
+    ],
+    "handlingTips": "Limit of up to 5 gallons or 22 pounds per household per visit.",
+    "acceptedFacilityTypes": ["dsny_special_waste"]
+  }
+]

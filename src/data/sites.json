@@ -1,0 +1,2995 @@
+[
+  {
+    "id": "dsny-special-218",
+    "name": "DSNY Special Waste Drop-Off (Manhattan)",
+    "facilityType": "dsny_special_waste",
+    "address": "74 Pike Slip",
+    "borough": "Manhattan",
+    "neighborhood": "New York",
+    "zipCode": "10002",
+    "coordinates": {
+      "lat": 40.7099070059109,
+      "lng": -73.9923233839406
+    },
+    "acceptedCategories": [
+      "hazardous",
+      "electronics",
+      "batteries",
+      "paint",
+      "automotive",
+      "mercury_lighting"
+    ],
+    "acceptedItemsText": [
+      "Hazardous household chemicals & nail polish",
+      "Rechargeable & lithium-ion batteries",
+      "Car / automotive lead-acid batteries",
+      "Motor oil, transmission fluid, and antifreeze",
+      "Oil-based and latex paint",
+      "Fluorescent bulbs and tubes",
+      "Electronics (computers, TVs, monitors, phones)",
+      "Small camping propane cylinders",
+      "Up to 4 passenger vehicle tires"
+    ],
+    "hours": "Saturdays & the last Friday of every month: 10:00 AM – 5:00 PM (Closed on legal holidays)",
+    "requirements": "NYC residents only. Non-commercial waste only. Must present NY State driver license and proof of residency (e.g. utility bill).",
+    "phone": "311",
+    "website": "https://www.nyc.gov/assets/dsny/site/services/harmful-products/special-waste-drop-offs",
+    "sourceDataset": "DSNY Special Waste Drop-off Sites (242c-ru4i)"
+  },
+  {
+    "id": "dsny-special-204",
+    "name": "DSNY Special Waste Drop-Off (Queens)",
+    "facilityType": "dsny_special_waste",
+    "address": "12015 31 Ave",
+    "borough": "Queens",
+    "neighborhood": "Flushing",
+    "zipCode": "11354",
+    "coordinates": {
+      "lat": 40.7710013528924,
+      "lng": -73.8471494631926
+    },
+    "acceptedCategories": [
+      "hazardous",
+      "electronics",
+      "batteries",
+      "paint",
+      "automotive",
+      "mercury_lighting"
+    ],
+    "acceptedItemsText": [
+      "Hazardous household chemicals & nail polish",
+      "Rechargeable & lithium-ion batteries",
+      "Car / automotive lead-acid batteries",
+      "Motor oil, transmission fluid, and antifreeze",
+      "Oil-based and latex paint",
+      "Fluorescent bulbs and tubes",
+      "Electronics (computers, TVs, monitors, phones)",
+      "Small camping propane cylinders",
+      "Up to 4 passenger vehicle tires"
+    ],
+    "hours": "Saturdays & the last Friday of every month: 10:00 AM – 5:00 PM (Closed on legal holidays)",
+    "requirements": "NYC residents only. Non-commercial waste only. Must present NY State driver license and proof of residency (e.g. utility bill).",
+    "phone": "311",
+    "website": "https://www.nyc.gov/assets/dsny/site/services/harmful-products/special-waste-drop-offs",
+    "sourceDataset": "DSNY Special Waste Drop-off Sites (242c-ru4i)"
+  },
+  {
+    "id": "dsny-special-135",
+    "name": "DSNY Special Waste Drop-Off (Staten Island)",
+    "facilityType": "dsny_special_waste",
+    "address": "1000 West Service Rd",
+    "borough": "Staten Island",
+    "neighborhood": "Staten Island",
+    "zipCode": "10312",
+    "coordinates": {
+      "lat": 40.5701296240937,
+      "lng": -74.1948192653765
+    },
+    "acceptedCategories": [
+      "hazardous",
+      "electronics",
+      "batteries",
+      "paint",
+      "automotive",
+      "mercury_lighting"
+    ],
+    "acceptedItemsText": [
+      "Hazardous household chemicals & nail polish",
+      "Rechargeable & lithium-ion batteries",
+      "Car / automotive lead-acid batteries",
+      "Motor oil, transmission fluid, and antifreeze",
+      "Oil-based and latex paint",
+      "Fluorescent bulbs and tubes",
+      "Electronics (computers, TVs, monitors, phones)",
+      "Small camping propane cylinders",
+      "Up to 4 passenger vehicle tires"
+    ],
+    "hours": "Saturdays & the last Friday of every month: 10:00 AM – 5:00 PM (Closed on legal holidays)",
+    "requirements": "NYC residents only. Non-commercial waste only. Must present NY State driver license and proof of residency (e.g. utility bill).",
+    "phone": "311",
+    "website": "https://www.nyc.gov/assets/dsny/site/services/harmful-products/special-waste-drop-offs",
+    "sourceDataset": "DSNY Special Waste Drop-off Sites (242c-ru4i)"
+  },
+  {
+    "id": "dsny-special-121",
+    "name": "DSNY Special Waste Drop-Off (Brooklyn)",
+    "facilityType": "dsny_special_waste",
+    "address": "459 N Henry St",
+    "borough": "Brooklyn",
+    "neighborhood": "Brooklyn",
+    "zipCode": "11222",
+    "coordinates": {
+      "lat": 40.7356555409138,
+      "lng": -73.9461380535929
+    },
+    "acceptedCategories": [
+      "hazardous",
+      "electronics",
+      "batteries",
+      "paint",
+      "automotive",
+      "mercury_lighting"
+    ],
+    "acceptedItemsText": [
+      "Hazardous household chemicals & nail polish",
+      "Rechargeable & lithium-ion batteries",
+      "Car / automotive lead-acid batteries",
+      "Motor oil, transmission fluid, and antifreeze",
+      "Oil-based and latex paint",
+      "Fluorescent bulbs and tubes",
+      "Electronics (computers, TVs, monitors, phones)",
+      "Small camping propane cylinders",
+      "Up to 4 passenger vehicle tires"
+    ],
+    "hours": "Saturdays & the last Friday of every month: 10:00 AM – 5:00 PM (Closed on legal holidays)",
+    "requirements": "NYC residents only. Non-commercial waste only. Must present NY State driver license and proof of residency (e.g. utility bill).",
+    "phone": "311",
+    "website": "https://www.nyc.gov/assets/dsny/site/services/harmful-products/special-waste-drop-offs",
+    "sourceDataset": "DSNY Special Waste Drop-off Sites (242c-ru4i)"
+  },
+  {
+    "id": "dsny-special-52",
+    "name": "DSNY Special Waste Drop-Off (Bronx)",
+    "facilityType": "dsny_special_waste",
+    "address": "2 Farragut St",
+    "borough": "Bronx",
+    "neighborhood": "Bronx",
+    "zipCode": "10474",
+    "coordinates": {
+      "lat": 40.8030613598415,
+      "lng": -73.8748588729107
+    },
+    "acceptedCategories": [
+      "hazardous",
+      "electronics",
+      "batteries",
+      "paint",
+      "automotive",
+      "mercury_lighting"
+    ],
+    "acceptedItemsText": [
+      "Hazardous household chemicals & nail polish",
+      "Rechargeable & lithium-ion batteries",
+      "Car / automotive lead-acid batteries",
+      "Motor oil, transmission fluid, and antifreeze",
+      "Oil-based and latex paint",
+      "Fluorescent bulbs and tubes",
+      "Electronics (computers, TVs, monitors, phones)",
+      "Small camping propane cylinders",
+      "Up to 4 passenger vehicle tires"
+    ],
+    "hours": "Saturdays & the last Friday of every month: 10:00 AM – 5:00 PM (Closed on legal holidays)",
+    "requirements": "NYC residents only. Non-commercial waste only. Must present NY State driver license and proof of residency (e.g. utility bill).",
+    "phone": "311",
+    "website": "https://www.nyc.gov/assets/dsny/site/services/harmful-products/special-waste-drop-offs",
+    "sourceDataset": "DSNY Special Waste Drop-off Sites (242c-ru4i)"
+  },
+  {
+    "id": "electronics-13136",
+    "name": "Best Buy - 8923 Bay Pkwy",
+    "facilityType": "retail_takeback",
+    "address": "8923 Bay Pkwy",
+    "borough": "Brooklyn",
+    "neighborhood": "Gravesend (West)",
+    "zipCode": "11214",
+    "coordinates": {
+      "lat": 40.59360561,
+      "lng": -73.99907225
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13104",
+    "name": "Recycle Your Devices - 1885 Victory Blvd",
+    "facilityType": "electronics_partner",
+    "address": "1885 Victory Blvd",
+    "borough": "Staten Island",
+    "neighborhood": "Westerleigh-Castleton Corners",
+    "zipCode": "10314",
+    "coordinates": {
+      "lat": 40.61714326,
+      "lng": -74.12507436
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13205",
+    "name": "WE Pickups LLC - 432 Austin Place #408",
+    "facilityType": "electronics_partner",
+    "address": "432 Austin Place #408",
+    "borough": "Bronx",
+    "neighborhood": "Mott Haven-Port Morris",
+    "zipCode": "10455",
+    "coordinates": {
+      "lat": 40.8090356,
+      "lng": -73.9053482
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13117",
+    "name": "Apple Store - 2655 Richmond Ave",
+    "facilityType": "retail_takeback",
+    "address": "2655 Richmond Ave",
+    "borough": "Staten Island",
+    "neighborhood": "New Springville-Willowbrook-Bulls Head-Travis",
+    "zipCode": "10314",
+    "coordinates": {
+      "lat": 40.58187,
+      "lng": -74.165866
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13200",
+    "name": "Staples - 90-30 Metropolitan Ave",
+    "facilityType": "retail_takeback",
+    "address": "90-30 Metropolitan Ave",
+    "borough": "Queens",
+    "neighborhood": "Glendale",
+    "zipCode": "11374",
+    "coordinates": {
+      "lat": 40.71103454,
+      "lng": -73.85841309
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13195",
+    "name": "Staples - 5-9 Union Square W",
+    "facilityType": "retail_takeback",
+    "address": "5-9 Union Square W",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown South-Flatiron-Union Square",
+    "zipCode": "10003",
+    "coordinates": {
+      "lat": 40.7354498,
+      "lng": -73.9915753
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13149",
+    "name": "Goodwill - 44 W 8 St",
+    "facilityType": "electronics_partner",
+    "address": "44 W 8 St",
+    "borough": "Manhattan",
+    "neighborhood": "Greenwich Village",
+    "zipCode": "10011",
+    "coordinates": {
+      "lat": 40.732951,
+      "lng": -73.998643
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13163",
+    "name": "Salvation Army - 208 8 Ave",
+    "facilityType": "electronics_partner",
+    "address": "208 8 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea-Hudson Yards",
+    "zipCode": "10011",
+    "coordinates": {
+      "lat": 40.743678,
+      "lng": -73.999235
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13181",
+    "name": "Staples - 251-21 Jericho Turnpike",
+    "facilityType": "retail_takeback",
+    "address": "251-21 Jericho Turnpike",
+    "borough": "Queens",
+    "neighborhood": "Bellerose",
+    "zipCode": "11426",
+    "coordinates": {
+      "lat": 40.72765982,
+      "lng": -73.71333697
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13168",
+    "name": "Salvation Army - 6822 3 Ave",
+    "facilityType": "electronics_partner",
+    "address": "6822 3 Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Bay Ridge",
+    "zipCode": "11220",
+    "coordinates": {
+      "lat": 40.6362001,
+      "lng": -74.0260663
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13180",
+    "name": "Staples - 24-41 31 St",
+    "facilityType": "retail_takeback",
+    "address": "24-41 31 St",
+    "borough": "Queens",
+    "neighborhood": "Astoria (North)-Ditmars-Steinway",
+    "zipCode": "11102",
+    "coordinates": {
+      "lat": 40.77122118,
+      "lng": -73.91629611
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13153",
+    "name": "J&J Recycling - 1641 Richmond Terrace",
+    "facilityType": "electronics_partner",
+    "address": "1641 Richmond Terrace",
+    "borough": "Staten Island",
+    "neighborhood": "Port Richmond",
+    "zipCode": "10310",
+    "coordinates": {
+      "lat": 40.6403145,
+      "lng": -74.1212432
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13191",
+    "name": "Staples - 5110 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "5110 Broadway",
+    "borough": "Queens",
+    "neighborhood": "Astoria (East)-Woodside (North)",
+    "zipCode": "11377",
+    "coordinates": {
+      "lat": 40.7538623,
+      "lng": -73.9089981
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13185",
+    "name": "Staples - 348 4th Ave",
+    "facilityType": "retail_takeback",
+    "address": "348 4th Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+    "zipCode": "11215",
+    "coordinates": {
+      "lat": 40.67418233,
+      "lng": -73.98677487
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13159",
+    "name": "Salvation Army - 436 Atlantic Ave",
+    "facilityType": "electronics_partner",
+    "address": "436 Atlantic Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Downtown Brooklyn-DUMBO-Boerum Hill",
+    "zipCode": "11217",
+    "coordinates": {
+      "lat": 40.6863101,
+      "lng": -73.9838984
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13112",
+    "name": "Apple Store - 123 Flatbush Ave",
+    "facilityType": "retail_takeback",
+    "address": "123 Flatbush Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Fort Greene",
+    "zipCode": "11217",
+    "coordinates": {
+      "lat": 40.686202,
+      "lng": -73.978499
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13148",
+    "name": "Goodwill - 258 Livingston St",
+    "facilityType": "electronics_partner",
+    "address": "258 Livingston St",
+    "borough": "Brooklyn",
+    "neighborhood": "Downtown Brooklyn-DUMBO-Boerum Hill",
+    "zipCode": "11201",
+    "coordinates": {
+      "lat": 40.6887457,
+      "lng": -73.9842131
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13127",
+    "name": "Best Buy - 369 Gateway Dr",
+    "facilityType": "retail_takeback",
+    "address": "369 Gateway Dr",
+    "borough": "Brooklyn",
+    "neighborhood": "Spring Creek-Starrett City",
+    "zipCode": "11239",
+    "coordinates": {
+      "lat": 40.65154222,
+      "lng": -73.87262128
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13176",
+    "name": "Staples - 1885 Hylan Blvd",
+    "facilityType": "retail_takeback",
+    "address": "1885 Hylan Blvd",
+    "borough": "Staten Island",
+    "neighborhood": "Grasmere-Arrochar-South Beach-Dongan Hills",
+    "zipCode": "10306",
+    "coordinates": {
+      "lat": 40.5838147,
+      "lng": -74.0962032
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13121",
+    "name": "Apple Store - 90-15 Queens Blvd",
+    "facilityType": "retail_takeback",
+    "address": "90-15 Queens Blvd",
+    "borough": "Queens",
+    "neighborhood": "Elmhurst",
+    "zipCode": "11373",
+    "coordinates": {
+      "lat": 40.734566,
+      "lng": -73.870652
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13144",
+    "name": "Goodwill - 103 W 25 St",
+    "facilityType": "electronics_partner",
+    "address": "103 W 25 St",
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea-Hudson Yards",
+    "zipCode": "10001",
+    "coordinates": {
+      "lat": 40.7444737,
+      "lng": -73.9921732
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13116",
+    "name": "Apple Store - 247 Bedford Ave",
+    "facilityType": "retail_takeback",
+    "address": "247 Bedford Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Williamsburg",
+    "zipCode": "11211",
+    "coordinates": {
+      "lat": 40.71561,
+      "lng": -73.959746
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13204",
+    "name": "WALTER - 138 Hinsdale St",
+    "facilityType": "electronics_partner",
+    "address": "138 Hinsdale St",
+    "borough": "Brooklyn",
+    "neighborhood": "East New York (North)",
+    "zipCode": "11207",
+    "coordinates": {
+      "lat": 40.67227998,
+      "lng": -73.90107948
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13131",
+    "name": "Best Buy - 531 5th Ave",
+    "facilityType": "retail_takeback",
+    "address": "531 5th Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown-Times Square",
+    "zipCode": "10017",
+    "coordinates": {
+      "lat": 40.75483614,
+      "lng": -73.97963772
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13199",
+    "name": "Staples - 800 Third Ave",
+    "facilityType": "retail_takeback",
+    "address": "800 Third Ave",
+    "borough": "Manhattan",
+    "neighborhood": "East Midtown-Turtle Bay",
+    "zipCode": "10022",
+    "coordinates": {
+      "lat": 40.75570567,
+      "lng": -73.97138626
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13145",
+    "name": "Goodwill - 1114 1 Ave",
+    "facilityType": "electronics_partner",
+    "address": "1114 1 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side-Lenox Hill-Roosevelt Island",
+    "zipCode": "10065",
+    "coordinates": {
+      "lat": 40.760863,
+      "lng": -73.960668
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13120",
+    "name": "Apple Store - 767 5 Ave",
+    "facilityType": "retail_takeback",
+    "address": "767 5 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown-Times Square",
+    "zipCode": "10153",
+    "coordinates": {
+      "lat": 40.763609,
+      "lng": -73.972435
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13103",
+    "name": "Green Chip, Inc. - 540 Kingland Ave",
+    "facilityType": "electronics_partner",
+    "address": "540 Kingland Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Greenpoint",
+    "zipCode": "11222",
+    "coordinates": {
+      "lat": 40.73570942,
+      "lng": -73.94439373
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13177",
+    "name": "Staples - 2040 White Plains Rd",
+    "facilityType": "retail_takeback",
+    "address": "2040 White Plains Rd",
+    "borough": "Bronx",
+    "neighborhood": "Pelham Parkway-Van Nest",
+    "zipCode": "10462",
+    "coordinates": {
+      "lat": 40.85207672,
+      "lng": -73.86737946
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13167",
+    "name": "Salvation Army - 536 W 46 St",
+    "facilityType": "electronics_partner",
+    "address": "536 W 46 St",
+    "borough": "Manhattan",
+    "neighborhood": "Hell's Kitchen",
+    "zipCode": "10036",
+    "coordinates": {
+      "lat": 40.762665,
+      "lng": -73.995377
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13135",
+    "name": "Best Buy - 8801 Queens Blvd",
+    "facilityType": "retail_takeback",
+    "address": "8801 Queens Blvd",
+    "borough": "Queens",
+    "neighborhood": "Elmhurst",
+    "zipCode": "11373",
+    "coordinates": {
+      "lat": 40.7357438,
+      "lng": -73.87448827
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13184",
+    "name": "Staples - 330-340 Baychester Ave",
+    "facilityType": "retail_takeback",
+    "address": "330-340 Baychester Ave",
+    "borough": "Bronx",
+    "neighborhood": "Co-op City",
+    "zipCode": "10475",
+    "coordinates": {
+      "lat": 40.86768776,
+      "lng": -73.82893736
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13172",
+    "name": "Staples - 1280 Lexington Ave",
+    "facilityType": "retail_takeback",
+    "address": "1280 Lexington Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side-Carnegie Hill",
+    "zipCode": "10028",
+    "coordinates": {
+      "lat": 40.7798872,
+      "lng": -73.9557037
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13113",
+    "name": "Apple Store - 185 Greenwich St",
+    "facilityType": "retail_takeback",
+    "address": "185 Greenwich St",
+    "borough": "Manhattan",
+    "neighborhood": "Financial District-Battery Park City",
+    "zipCode": "10007",
+    "coordinates": {
+      "lat": 40.711639,
+      "lng": -74.012343
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13140",
+    "name": "DSNY Special Waste Drop-Off Site - 12015 31 Ave",
+    "facilityType": "electronics_partner",
+    "address": "12015 31 Ave",
+    "borough": "Queens",
+    "neighborhood": "College Point",
+    "zipCode": "11354",
+    "coordinates": {
+      "lat": 40.77123,
+      "lng": -73.84757
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13108",
+    "name": "Scrap King Greenpoint, LLC - 374 Greenpoint Ave",
+    "facilityType": "electronics_partner",
+    "address": "374 Greenpoint Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Greenpoint",
+    "zipCode": "11222",
+    "coordinates": {
+      "lat": 40.7318987,
+      "lng": -73.9443865
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13196",
+    "name": "Staples - 641 6 Ave",
+    "facilityType": "retail_takeback",
+    "address": "641 6 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea-Hudson Yards",
+    "zipCode": "10011",
+    "coordinates": {
+      "lat": 40.7407266,
+      "lng": -73.9948313
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13152",
+    "name": "Irving Rubber & Metal Co - 9525 Ditmas Ave",
+    "facilityType": "electronics_partner",
+    "address": "9525 Ditmas Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "East Flatbush-Remsen Village",
+    "zipCode": "11236",
+    "coordinates": {
+      "lat": 40.65102651,
+      "lng": -73.91076274
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13128",
+    "name": "Best Buy - 402 E Fordham Rd",
+    "facilityType": "retail_takeback",
+    "address": "402 E Fordham Rd",
+    "borough": "Bronx",
+    "neighborhood": "Belmont",
+    "zipCode": "10458",
+    "coordinates": {
+      "lat": 40.86087263,
+      "lng": -73.89167099
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13109",
+    "name": "Scrap King USA Inc - 99 19th St",
+    "facilityType": "electronics_partner",
+    "address": "99 19th St",
+    "borough": "Brooklyn",
+    "neighborhood": "Sunset Park (West)",
+    "zipCode": "11232",
+    "coordinates": {
+      "lat": 40.6655837,
+      "lng": -73.9970059
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13192",
+    "name": "Staples - 535 Morgan Ave",
+    "facilityType": "retail_takeback",
+    "address": "535 Morgan Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "East Williamsburg",
+    "zipCode": "11222",
+    "coordinates": {
+      "lat": 40.72230119,
+      "lng": -73.93917165
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13164",
+    "name": "Salvation Army - 2359 Jerome Ave",
+    "facilityType": "electronics_partner",
+    "address": "2359 Jerome Ave",
+    "borough": "Bronx",
+    "neighborhood": "Fordham Heights",
+    "zipCode": "10468",
+    "coordinates": {
+      "lat": 40.860358,
+      "lng": -73.9030775
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13132",
+    "name": "Best Buy - 60 W 23 St",
+    "facilityType": "retail_takeback",
+    "address": "60 W 23 St",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown South-Flatiron-Union Square",
+    "zipCode": "10010",
+    "coordinates": {
+      "lat": 40.7423606,
+      "lng": -73.9923849
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13203",
+    "name": "T&T Scrap, LLC - 340 Maspeth Ave",
+    "facilityType": "electronics_partner",
+    "address": "340 Maspeth Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "East Williamsburg",
+    "zipCode": "11211",
+    "coordinates": {
+      "lat": 40.7180546,
+      "lng": -73.9304626
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13173",
+    "name": "Staples - 1755 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "1755 Broadway",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown-Times Square",
+    "zipCode": "10019",
+    "coordinates": {
+      "lat": 40.766011,
+      "lng": -73.98214997
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13171",
+    "name": "Staples - 105 W 125th St",
+    "facilityType": "retail_takeback",
+    "address": "105 W 125th St",
+    "borough": "Manhattan",
+    "neighborhood": "Harlem (South)",
+    "zipCode": "10027",
+    "coordinates": {
+      "lat": 40.80827765,
+      "lng": -73.94594495
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13160",
+    "name": "Salvation Army - 493 Mosel Ave",
+    "facilityType": "electronics_partner",
+    "address": "493 Mosel Ave",
+    "borough": "Staten Island",
+    "neighborhood": "Grasmere-Arrochar-South Beach-Dongan Hills",
+    "zipCode": "10304",
+    "coordinates": {
+      "lat": 40.60521855,
+      "lng": -74.0838506
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13141",
+    "name": "DSNY Special Waste Drop-Off Site - 2 Farragut St",
+    "facilityType": "electronics_partner",
+    "address": "2 Farragut St",
+    "borough": "Bronx",
+    "neighborhood": "Hunts Point",
+    "zipCode": "10474",
+    "coordinates": {
+      "lat": 40.801686,
+      "lng": -73.87343
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13188",
+    "name": "Staples - 442 5th Ave",
+    "facilityType": "retail_takeback",
+    "address": "442 5th Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown-Times Square",
+    "zipCode": "10018",
+    "coordinates": {
+      "lat": 40.75198,
+      "lng": -73.9824833
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13183",
+    "name": "Staples - 2892 Ocean Ave",
+    "facilityType": "retail_takeback",
+    "address": "2892 Ocean Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Sheepshead Bay-Manhattan Beach-Gerritsen Beach",
+    "zipCode": "11235",
+    "coordinates": {
+      "lat": 40.5908736,
+      "lng": -73.9503307
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13161",
+    "name": "Salvation Army - 1294 Southern Blvd",
+    "facilityType": "electronics_partner",
+    "address": "1294 Southern Blvd",
+    "borough": "Bronx",
+    "neighborhood": "Crotona Park East",
+    "zipCode": "10459",
+    "coordinates": {
+      "lat": 40.8306088,
+      "lng": -73.891455
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13146",
+    "name": "Goodwill - 1704 2 Ave",
+    "facilityType": "electronics_partner",
+    "address": "1704 2 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side-Yorkville",
+    "zipCode": "10128",
+    "coordinates": {
+      "lat": 40.7793,
+      "lng": -73.950294
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13178",
+    "name": "Staples - 209-34 Northern Blvd",
+    "facilityType": "retail_takeback",
+    "address": "209-34 Northern Blvd",
+    "borough": "Queens",
+    "neighborhood": "Bayside",
+    "zipCode": "11361",
+    "coordinates": {
+      "lat": 40.75909625,
+      "lng": -73.77302777
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13134",
+    "name": "Best Buy - 622 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "622 Broadway",
+    "borough": "Manhattan",
+    "neighborhood": "Greenwich Village",
+    "zipCode": "10012",
+    "coordinates": {
+      "lat": 40.7258471,
+      "lng": -73.99621957
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13193",
+    "name": "Staples - 5680 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "5680 Broadway",
+    "borough": "Bronx",
+    "neighborhood": "Kingsbridge-Marble Hill",
+    "zipCode": "10463",
+    "coordinates": {
+      "lat": 40.88108777,
+      "lng": -73.90227651
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13151",
+    "name": "Goodwill - 7 W 14 St",
+    "facilityType": "electronics_partner",
+    "address": "7 W 14 St",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown South-Flatiron-Union Square",
+    "zipCode": "10011",
+    "coordinates": {
+      "lat": 40.736697,
+      "lng": -73.994165
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13156",
+    "name": "PASCAP Co., Inc. - 4250 Boston Rd",
+    "facilityType": "electronics_partner",
+    "address": "4250 Boston Rd",
+    "borough": "Bronx",
+    "neighborhood": "Eastchester-Edenwald-Baychester",
+    "zipCode": "10475",
+    "coordinates": {
+      "lat": 40.8882201,
+      "lng": -73.8225387
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13119",
+    "name": "Apple Store - 45 Grand Central Terminal",
+    "facilityType": "retail_takeback",
+    "address": "45 Grand Central Terminal",
+    "borough": "Manhattan",
+    "neighborhood": "East Midtown-Turtle Bay",
+    "zipCode": "10017",
+    "coordinates": {
+      "lat": 40.752642,
+      "lng": -73.977279
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13124",
+    "name": "Best Buy - 13107 40th Rd",
+    "facilityType": "retail_takeback",
+    "address": "13107 40th Rd",
+    "borough": "Queens",
+    "neighborhood": "Flushing-Willets Point",
+    "zipCode": "11354",
+    "coordinates": {
+      "lat": 40.75636718,
+      "lng": -73.83696215
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13129",
+    "name": "Best Buy - 5001 Northern Blvd",
+    "facilityType": "retail_takeback",
+    "address": "5001 Northern Blvd",
+    "borough": "Queens",
+    "neighborhood": "Astoria (East)-Woodside (North)",
+    "zipCode": "11101",
+    "coordinates": {
+      "lat": 40.75370894,
+      "lng": -73.9117397
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13198",
+    "name": "Staples - 769 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "769 Broadway",
+    "borough": "Manhattan",
+    "neighborhood": "Greenwich Village",
+    "zipCode": "10003",
+    "coordinates": {
+      "lat": 40.73105907,
+      "lng": -73.99228685
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13166",
+    "name": "Salvation Army - 4109 Park Ave",
+    "facilityType": "electronics_partner",
+    "address": "4109 Park Ave",
+    "borough": "Bronx",
+    "neighborhood": "Mount Hope",
+    "zipCode": "10457",
+    "coordinates": {
+      "lat": 40.845553,
+      "lng": -73.901079
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13107",
+    "name": "Salvation Army - 208 E 23 St",
+    "facilityType": "electronics_partner",
+    "address": "208 E 23 St",
+    "borough": "Manhattan",
+    "neighborhood": "Gramercy",
+    "zipCode": "10010",
+    "coordinates": {
+      "lat": 40.738365,
+      "lng": -73.9824462
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13102",
+    "name": "Gershow Recycling of Brooklyn Inc - 1188 Pitkin Ave",
+    "facilityType": "electronics_partner",
+    "address": "1188 Pitkin Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Ocean Hill",
+    "zipCode": "11212",
+    "coordinates": {
+      "lat": 40.67748108,
+      "lng": -73.90292646
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13114",
+    "name": "Apple Store - 1981 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "1981 Broadway",
+    "borough": "Manhattan",
+    "neighborhood": "Upper West Side-Lincoln Square",
+    "zipCode": "10023",
+    "coordinates": {
+      "lat": 40.775064,
+      "lng": -73.982637
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13139",
+    "name": "DSNY Special Waste Drop-Off Site - 1000 West Service Rd",
+    "facilityType": "electronics_partner",
+    "address": "1000 West Service Rd",
+    "borough": "Staten Island",
+    "neighborhood": "Freshkills Park (South)",
+    "zipCode": "10312",
+    "coordinates": {
+      "lat": 40.56899487,
+      "lng": -74.19338812
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13202",
+    "name": "Staples - 9319 5 Ave",
+    "facilityType": "retail_takeback",
+    "address": "9319 5 Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Bay Ridge",
+    "zipCode": "11209",
+    "coordinates": {
+      "lat": 40.6166088,
+      "lng": -74.0300263
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13125",
+    "name": "Best Buy - 171 W 230th St, Ste. 103",
+    "facilityType": "retail_takeback",
+    "address": "171 W 230th St, Ste. 103",
+    "borough": "Bronx",
+    "neighborhood": "Kingsbridge-Marble Hill",
+    "zipCode": "10463",
+    "coordinates": {
+      "lat": 40.87728015,
+      "lng": -73.90491584
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13170",
+    "name": "Sims Metal Management East - 850 Edgewater Rd",
+    "facilityType": "electronics_partner",
+    "address": "850 Edgewater Rd",
+    "borough": "Bronx",
+    "neighborhood": "Hunts Point",
+    "zipCode": "10474",
+    "coordinates": {
+      "lat": 40.8184516,
+      "lng": -73.8832997
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13157",
+    "name": "Salvation Army - 109 2nd Ave",
+    "facilityType": "electronics_partner",
+    "address": "109 2nd Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+    "zipCode": "11215",
+    "coordinates": {
+      "lat": 40.67144018,
+      "lng": -73.9942085
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13142",
+    "name": "DSNY Special Waste Drop-Off Site - 459 N Henry St",
+    "facilityType": "electronics_partner",
+    "address": "459 N Henry St",
+    "borough": "Brooklyn",
+    "neighborhood": "Greenpoint",
+    "zipCode": "11222",
+    "coordinates": {
+      "lat": 40.73476,
+      "lng": -73.94543
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13187",
+    "name": "Staples - 4320 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "4320 Broadway",
+    "borough": "Manhattan",
+    "neighborhood": "Washington Heights (North)",
+    "zipCode": "10033",
+    "coordinates": {
+      "lat": 40.852234,
+      "lng": -73.934259
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13110",
+    "name": "Allocco Recycling, Ltd. - 540 Kingsland Ave",
+    "facilityType": "electronics_partner",
+    "address": "540 Kingsland Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Greenpoint",
+    "zipCode": "11222",
+    "coordinates": {
+      "lat": 40.7355308,
+      "lng": -73.9443812
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13155",
+    "name": "Micro Center - 71-43 Kissena Blvd (Between 71st and 72nd Aves)",
+    "facilityType": "electronics_partner",
+    "address": "71-43 Kissena Blvd (Between 71st and 72nd Aves)",
+    "borough": "Queens",
+    "neighborhood": "Pomonok-Electchester-Hillcrest",
+    "zipCode": "11367",
+    "coordinates": {
+      "lat": 40.728866,
+      "lng": -73.8150369
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13138",
+    "name": "Big Reuse - 1 12th St",
+    "facilityType": "electronics_partner",
+    "address": "1 12th St",
+    "borough": "Brooklyn",
+    "neighborhood": "Carroll Gardens-Cobble Hill-Gowanus-Red Hook",
+    "zipCode": "11215",
+    "coordinates": {
+      "lat": 40.6722888,
+      "lng": -73.9971998
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13189",
+    "name": "Staples - 5 Union Square West",
+    "facilityType": "retail_takeback",
+    "address": "5 Union Square West",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown South-Flatiron-Union Square",
+    "zipCode": "10003",
+    "coordinates": {
+      "lat": 40.73578828,
+      "lng": -73.99179116
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13174",
+    "name": "Staples - 1760 Utica Ave",
+    "facilityType": "retail_takeback",
+    "address": "1760 Utica Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Flatlands",
+    "zipCode": "11234",
+    "coordinates": {
+      "lat": 40.62921082,
+      "lng": -73.92835207
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13194",
+    "name": "Staples - 58-12 Queens Blvd",
+    "facilityType": "retail_takeback",
+    "address": "58-12 Queens Blvd",
+    "borough": "Queens",
+    "neighborhood": "Woodside",
+    "zipCode": "11377",
+    "coordinates": {
+      "lat": 40.74128698,
+      "lng": -73.9070244
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13133",
+    "name": "Best Buy - 610 Exterior St",
+    "facilityType": "retail_takeback",
+    "address": "610 Exterior St",
+    "borough": "Bronx",
+    "neighborhood": "Concourse-Concourse Village",
+    "zipCode": "10451",
+    "coordinates": {
+      "lat": 40.82153924,
+      "lng": -73.92977867
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13162",
+    "name": "Salvation Army - 2053 Clove Rd",
+    "facilityType": "electronics_partner",
+    "address": "2053 Clove Rd",
+    "borough": "Staten Island",
+    "neighborhood": "Grasmere-Arrochar-South Beach-Dongan Hills",
+    "zipCode": "10304",
+    "coordinates": {
+      "lat": 40.605057,
+      "lng": -74.083695
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13106",
+    "name": "PTK Restorations LLC - 59-20 Grand Ave",
+    "facilityType": "electronics_partner",
+    "address": "59-20 Grand Ave",
+    "borough": "Queens",
+    "neighborhood": "Maspeth",
+    "zipCode": "11378",
+    "coordinates": {
+      "lat": 40.720542,
+      "lng": -73.907551
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13118",
+    "name": "Apple Store - 401 W 14 St",
+    "facilityType": "retail_takeback",
+    "address": "401 W 14 St",
+    "borough": "Manhattan",
+    "neighborhood": "Chelsea-Hudson Yards",
+    "zipCode": "10014",
+    "coordinates": {
+      "lat": 40.741335,
+      "lng": -74.00555
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13165",
+    "name": "Salvation Army - 3911 61 St",
+    "facilityType": "electronics_partner",
+    "address": "3911 61 St",
+    "borough": "Queens",
+    "neighborhood": "Woodside",
+    "zipCode": "11377",
+    "coordinates": {
+      "lat": 40.746743,
+      "lng": -73.9026954
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13179",
+    "name": "Staples - 2248 Broadway",
+    "facilityType": "retail_takeback",
+    "address": "2248 Broadway",
+    "borough": "Manhattan",
+    "neighborhood": "Upper West Side (Central)",
+    "zipCode": "10024",
+    "coordinates": {
+      "lat": 40.7848159,
+      "lng": -73.9788032
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13150",
+    "name": "Goodwill - 4747 Van Dam St",
+    "facilityType": "electronics_partner",
+    "address": "4747 Van Dam St",
+    "borough": "Queens",
+    "neighborhood": "Sunnyside",
+    "zipCode": "11101",
+    "coordinates": {
+      "lat": 40.7415286,
+      "lng": -73.9337864
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13182",
+    "name": "Staples - 2535 Richmond Ave",
+    "facilityType": "retail_takeback",
+    "address": "2535 Richmond Ave",
+    "borough": "Staten Island",
+    "neighborhood": "New Springville-Willowbrook-Bulls Head-Travis",
+    "zipCode": "10314",
+    "coordinates": {
+      "lat": 40.58605531,
+      "lng": -74.16669338
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13197",
+    "name": "Staples - 675 3 Ave",
+    "facilityType": "retail_takeback",
+    "address": "675 3 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Murray Hill-Kips Bay",
+    "zipCode": "10017",
+    "coordinates": {
+      "lat": 40.7509006,
+      "lng": -73.973911
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13130",
+    "name": "Best Buy - 52 E 14th St",
+    "facilityType": "retail_takeback",
+    "address": "52 E 14th St",
+    "borough": "Manhattan",
+    "neighborhood": "Greenwich Village",
+    "zipCode": "10003",
+    "coordinates": {
+      "lat": 40.73451587,
+      "lng": -73.99052633
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13147",
+    "name": "Goodwill - 2231 3 Ave",
+    "facilityType": "electronics_partner",
+    "address": "2231 3 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "East Harlem (North)",
+    "zipCode": "10035",
+    "coordinates": {
+      "lat": 40.801328,
+      "lng": -73.937068
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13123",
+    "name": "Best Buy - 1280 Lexington Ave",
+    "facilityType": "retail_takeback",
+    "address": "1280 Lexington Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side-Carnegie Hill",
+    "zipCode": "10028",
+    "coordinates": {
+      "lat": 40.7798872,
+      "lng": -73.9557037
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13169",
+    "name": "Scholes St Recycling Corp - 492 Scholes St",
+    "facilityType": "electronics_partner",
+    "address": "492 Scholes St",
+    "borough": "Brooklyn",
+    "neighborhood": "East Williamsburg",
+    "zipCode": "11237",
+    "coordinates": {
+      "lat": 40.71123455,
+      "lng": -73.92767114
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13175",
+    "name": "Staples - 1880 Coney Island Ave",
+    "facilityType": "retail_takeback",
+    "address": "1880 Coney Island Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Gravesend (East)-Homecrest",
+    "zipCode": "11230",
+    "coordinates": {
+      "lat": 40.6118064,
+      "lng": -73.9630824
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13154",
+    "name": "Micro Center - 850 3rd Ave (31st & 3rd Ave)",
+    "facilityType": "electronics_partner",
+    "address": "850 3rd Ave (31st & 3rd Ave)",
+    "borough": "Brooklyn",
+    "neighborhood": "Sunset Park (West)",
+    "zipCode": "11232",
+    "coordinates": {
+      "lat": 40.6588044,
+      "lng": -74.003448
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13186",
+    "name": "Staples - 409 Gateway Dr",
+    "facilityType": "retail_takeback",
+    "address": "409 Gateway Dr",
+    "borough": "Brooklyn",
+    "neighborhood": "Spring Creek-Starrett City",
+    "zipCode": "11239",
+    "coordinates": {
+      "lat": 40.6539242,
+      "lng": -73.8732584
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13201",
+    "name": "Staples - 93-18 Roosevelt Ave",
+    "facilityType": "retail_takeback",
+    "address": "93-18 Roosevelt Ave",
+    "borough": "Queens",
+    "neighborhood": "Elmhurst",
+    "zipCode": "11372",
+    "coordinates": {
+      "lat": 40.74868912,
+      "lng": -73.87263634
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13126",
+    "name": "Best Buy - 2795 Richmond Ave",
+    "facilityType": "retail_takeback",
+    "address": "2795 Richmond Ave",
+    "borough": "Staten Island",
+    "neighborhood": "New Springville-Willowbrook-Bulls Head-Travis",
+    "zipCode": "10314",
+    "coordinates": {
+      "lat": 40.57695637,
+      "lng": -74.16738911
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13111",
+    "name": "Apple Store - 103 Prince St",
+    "facilityType": "retail_takeback",
+    "address": "103 Prince St",
+    "borough": "Manhattan",
+    "neighborhood": "SoHo-Little Italy-Hudson Square",
+    "zipCode": "10012",
+    "coordinates": {
+      "lat": 40.725117,
+      "lng": -73.998979
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13158",
+    "name": "Salvation Army - 4109 Park Ave",
+    "facilityType": "electronics_partner",
+    "address": "4109 Park Ave",
+    "borough": "Bronx",
+    "neighborhood": "Mount Hope",
+    "zipCode": "10457",
+    "coordinates": {
+      "lat": 40.84559331,
+      "lng": -73.90103116
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13190",
+    "name": "Staples - 500 8 Ave",
+    "facilityType": "retail_takeback",
+    "address": "500 8 Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Midtown-Times Square",
+    "zipCode": "10018",
+    "coordinates": {
+      "lat": 40.7530426,
+      "lng": -73.9924445
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13137",
+    "name": "Best Buy - 625 Atlantic Ave",
+    "facilityType": "retail_takeback",
+    "address": "625 Atlantic Ave",
+    "borough": "Brooklyn",
+    "neighborhood": "Fort Greene",
+    "zipCode": "11217",
+    "coordinates": {
+      "lat": 40.6840997,
+      "lng": -73.97548098
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13143",
+    "name": "DSNY Special Waste Drop-Off Site - 74 Pike Slip",
+    "facilityType": "electronics_partner",
+    "address": "74 Pike Slip",
+    "borough": "Manhattan",
+    "neighborhood": "Chinatown-Two Bridges",
+    "zipCode": "10002",
+    "coordinates": {
+      "lat": 40.71066,
+      "lng": -73.99288
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13115",
+    "name": "Apple Store - 200 Baychester Avenue",
+    "facilityType": "retail_takeback",
+    "address": "200 Baychester Avenue",
+    "borough": "Bronx",
+    "neighborhood": "Co-op City",
+    "zipCode": "10475",
+    "coordinates": {
+      "lat": 40.8638,
+      "lng": -73.8278
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13122",
+    "name": "Apple Store - 940 Madison Ave",
+    "facilityType": "retail_takeback",
+    "address": "940 Madison Ave",
+    "borough": "Manhattan",
+    "neighborhood": "Upper East Side-Carnegie Hill",
+    "zipCode": "10021",
+    "coordinates": {
+      "lat": 40.773375,
+      "lng": -73.964538
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Store business hours",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  },
+  {
+    "id": "electronics-13105",
+    "name": "Lumens - 106-15 Sutphin Blvd",
+    "facilityType": "electronics_partner",
+    "address": "106-15 Sutphin Blvd",
+    "borough": "Queens",
+    "neighborhood": "Jamaica",
+    "zipCode": "11435",
+    "coordinates": {
+      "lat": 40.6948931,
+      "lng": -73.8023815
+    },
+    "acceptedCategories": [
+      "electronics",
+      "batteries"
+    ],
+    "acceptedItemsText": [
+      "Computers, laptops, monitors, tablets",
+      "Cell phones, chargers, cables, keyboards",
+      "Printers, scanners, video equipment",
+      "Rechargeable batteries (retailers)"
+    ],
+    "hours": "Regular operating hours; call ahead",
+    "requirements": "Drop-off accepted during operational hours. Check store policy for size/quantity limits.",
+    "phone": "311",
+    "sourceDataset": "Electronics Drop-Off Locations in NYC (wshr-5vic)"
+  }
+]
