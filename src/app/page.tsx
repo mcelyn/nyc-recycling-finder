@@ -6,11 +6,12 @@ import sitesData from '@/data/sites.json';
 import itemsData from '@/data/items.json';
 import { RecyclingSite, RecyclingItem, Borough } from '@/types/recycling';
 import ItemSearch from '@/components/ItemSearch';
+import LocationSearch from '@/components/LocationSearch';
 import ItemGuidanceCard from '@/components/ItemGuidanceCard';
-import FilterBar from '@/components/FilterBar';
 import SiteCard from '@/components/SiteCard';
 import { calculateDistanceInMiles } from '@/utils/geo';
-import { Recycle, MapPin, Database, Sparkles, AlertCircle } from 'lucide-react';
+import { NYC_ZIP_MAP, getBoroughFromZip } from '@/utils/zipCodes';
+import { Recycle, MapPin, Database, AlertCircle, RotateCcw } from 'lucide-react';
 
 // Dynamic import for Leaflet map to disable SSR
 const RecyclingMap = dynamic(() => import('@/components/Map'), {
@@ -28,6 +29,7 @@ export default function HomePage() {
 
   const [selectedItem, setSelectedItem] = useState<RecyclingItem | null>(null);
   const [selectedBorough, setSelectedBorough] = useState<Borough | 'All'>('All');
+  const [selectedZip, setSelectedZip] = useState<string | null>(null);
   const [selectedSite, setSelectedSite] = useState<RecyclingSite | null>(null);
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [isLocating, setIsLocating] = useState(false);
@@ -41,6 +43,7 @@ export default function HomePage() {
     }
     setIsLocating(true);
     setGeoError(null);
+    setSelectedZip(null);
 
     navigator.geolocation.getCurrentPosition(
       (pos) => {
@@ -48,6 +51,7 @@ export default function HomePage() {
           lat: pos.coords.latitude,
           lng: pos.coords.longitude,
         });
+        setSelectedBorough('All');
         setIsLocating(false);
       },
       (err) => {
@@ -59,14 +63,39 @@ export default function HomePage() {
     );
   };
 
+  const handleClearLocation = () => {
+    setUserLocation(null);
+    setSelectedZip(null);
+    setSelectedBorough('All');
+    setGeoError(null);
+  };
+
+  const handleResetAll = () => {
+    setSelectedItem(null);
+    setSelectedSite(null);
+    handleClearLocation();
+  };
+
+  // Determine reference coordinate for proximity sorting (user GPS or selected ZIP code centroid)
+  const referencePoint = useMemo(() => {
+    if (userLocation) return userLocation;
+    if (selectedZip && NYC_ZIP_MAP[selectedZip]) {
+      return {
+        lat: NYC_ZIP_MAP[selectedZip].lat,
+        lng: NYC_ZIP_MAP[selectedZip].lng,
+      };
+    }
+    return null;
+  }, [userLocation, selectedZip]);
+
   // Filter and sort sites
   const filteredSites = useMemo(() => {
     let result = allSites.map((site) => {
       let distanceInMiles: number | undefined;
-      if (userLocation) {
+      if (referencePoint) {
         distanceInMiles = calculateDistanceInMiles(
-          userLocation.lat,
-          userLocation.lng,
+          referencePoint.lat,
+          referencePoint.lng,
           site.coordinates.lat,
           site.coordinates.lng
         );
@@ -80,9 +109,7 @@ export default function HomePage() {
     // 1. Filter by Selected Item
     if (selectedItem) {
       result = result.filter((site) => {
-        // If site accepts this item's waste category
         const matchesCategory = site.acceptedCategories.includes(selectedItem.category);
-        // If site type is accepted for this item
         const matchesFacilityType = selectedItem.acceptedFacilityTypes.includes(site.facilityType);
         return matchesCategory || matchesFacilityType;
       });
@@ -95,13 +122,13 @@ export default function HomePage() {
       );
     }
 
-    // 3. Sort by Distance if user location is available
-    if (userLocation) {
+    // 3. Sort by Distance if a reference point (GPS or ZIP) is available
+    if (referencePoint) {
       result.sort((a, b) => (a.distanceInMiles ?? 999) - (b.distanceInMiles ?? 999));
     }
 
     return result;
-  }, [allSites, selectedItem, selectedBorough, userLocation]);
+  }, [allSites, selectedItem, selectedBorough, referencePoint]);
 
   // If a selected site gets filtered out, reset it
   useEffect(() => {
@@ -114,8 +141,9 @@ export default function HomePage() {
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col">
       {/* Top Banner / Navigation */}
       <header className="bg-white border-b border-slate-200 sticky top-0 z-40 backdrop-blur-md bg-white/95">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3 w-full md:w-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col lg:flex-row items-center justify-between gap-4">
+          {/* Logo & Title */}
+          <div className="flex items-center gap-3 w-full lg:w-auto shrink-0">
             <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-md shrink-0">
               <Recycle className="w-6 h-6" />
             </div>
@@ -129,20 +157,42 @@ export default function HomePage() {
                 </span>
               </div>
               <p className="text-xs text-slate-500">
-                Safe disposal for hazardous waste, electronics, batteries & special items
+                Safe disposal for electronics, hazardous waste, batteries & special items
               </p>
             </div>
           </div>
 
-          {/* Search Bar */}
-          <ItemSearch
-            items={allItems}
-            selectedItem={selectedItem}
-            onSelectItem={(item) => {
-              setSelectedItem(item);
-              setSelectedSite(null);
-            }}
-          />
+          {/* Consolidated Search Controls (Item Search + Location Input side-by-side) */}
+          <div className="w-full lg:max-w-3xl flex flex-col sm:flex-row items-center gap-2.5">
+            <div className="flex-1 w-full">
+              <ItemSearch
+                items={allItems}
+                selectedItem={selectedItem}
+                onSelectItem={(item) => {
+                  setSelectedItem(item);
+                  setSelectedSite(null);
+                }}
+              />
+            </div>
+            <div className="w-full sm:w-72 shrink-0">
+              <LocationSearch
+                selectedBorough={selectedBorough}
+                onSelectBorough={(boro) => {
+                  setSelectedBorough(boro);
+                  setUserLocation(null);
+                }}
+                selectedZip={selectedZip}
+                onSelectZip={(zip) => {
+                  setSelectedZip(zip);
+                  setUserLocation(null);
+                }}
+                onRequestLocation={handleRequestLocation}
+                isLocating={isLocating}
+                hasUserLocation={!!userLocation}
+                onClearLocation={handleClearLocation}
+              />
+            </div>
+          </div>
         </div>
       </header>
 
@@ -165,15 +215,42 @@ export default function HomePage() {
           </div>
         )}
 
-        {/* Filter controls */}
-        <FilterBar
-          selectedBorough={selectedBorough}
-          onSelectBorough={setSelectedBorough}
-          onRequestLocation={handleRequestLocation}
-          isLocating={isLocating}
-          hasUserLocation={!!userLocation}
-          totalResults={filteredSites.length}
-        />
+        {/* Status Bar above Map / Directory */}
+        <div className="flex items-center justify-between text-xs text-slate-600 mb-4 px-1">
+          <div>
+            Showing <strong className="text-slate-900">{filteredSites.length}</strong>{' '}
+            {filteredSites.length === 1 ? 'drop-off location' : 'drop-off locations'}
+            {userLocation ? (
+              <span className="text-sky-700 font-semibold ml-1">
+                (sorted by distance to your current location)
+              </span>
+            ) : selectedZip ? (
+              <span className="text-slate-800 font-semibold ml-1">
+                (near ZIP {selectedZip}
+                {NYC_ZIP_MAP[selectedZip]?.neighborhood
+                  ? ` - ${NYC_ZIP_MAP[selectedZip].neighborhood}`
+                  : ''}
+                )
+              </span>
+            ) : selectedBorough !== 'All' ? (
+              <span className="text-slate-800 font-semibold ml-1">
+                in {selectedBorough}
+              </span>
+            ) : (
+              <span> across all 5 NYC boroughs</span>
+            )}
+          </div>
+
+          {(selectedBorough !== 'All' || selectedZip || userLocation || selectedItem) && (
+            <button
+              onClick={handleResetAll}
+              className="flex items-center gap-1 text-emerald-700 hover:text-emerald-800 font-semibold transition-colors"
+            >
+              <RotateCcw className="w-3.5 h-3.5" />
+              <span>Reset filters</span>
+            </button>
+          )}
+        </div>
 
         {/* 2-Column Split: Directory List + Sticky Map */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
@@ -186,13 +263,10 @@ export default function HomePage() {
                   No locations found
                 </h3>
                 <p className="text-xs text-slate-500 mb-4">
-                  No drop-off facilities in {selectedBorough} match your current filter.
+                  No drop-off facilities match your current item and location filter.
                 </p>
                 <button
-                  onClick={() => {
-                    setSelectedBorough('All');
-                    setSelectedItem(null);
-                  }}
+                  onClick={handleResetAll}
                   className="px-4 py-2 bg-slate-900 text-white rounded-xl text-xs font-semibold hover:bg-slate-800 transition-colors"
                 >
                   Reset All Filters
@@ -211,12 +285,12 @@ export default function HomePage() {
           </div>
 
           {/* Right Column: Sticky Interactive Map */}
-          <div className="lg:col-span-7 sticky top-20 order-1 lg:order-2 h-[450px] lg:h-[calc(100vh-140px)]">
+          <div className="lg:col-span-7 sticky top-24 order-1 lg:order-2 h-[450px] lg:h-[calc(100vh-140px)]">
             <RecyclingMap
               sites={filteredSites}
               selectedSite={selectedSite}
               onSelectSite={(s) => setSelectedSite(s)}
-              userLocation={userLocation}
+              userLocation={referencePoint}
             />
           </div>
         </div>
