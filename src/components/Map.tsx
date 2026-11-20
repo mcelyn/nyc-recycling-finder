@@ -2,11 +2,9 @@
 
 import React, { useEffect, useMemo } from 'react';
 import 'leaflet/dist/leaflet.css';
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Tooltip, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { RecyclingSite } from '@/types/recycling';
-import { ExternalLink, Clock, ShieldAlert, MapPin } from 'lucide-react';
-import { getDirectionsUrl } from '@/utils/geo';
 
 interface MapProps {
   sites: RecyclingSite[];
@@ -26,19 +24,19 @@ function createPinIcon(type: string, isSelected: boolean) {
   }
 
   if (isSelected) {
-    bgColor = 'bg-emerald-600 ring-4 ring-emerald-300';
+    bgColor = 'bg-emerald-600 ring-4 ring-emerald-300 scale-125 z-50';
   }
 
   return L.divIcon({
     className: 'custom-pin',
     html: `
-      <div class="relative flex items-center justify-center w-8 h-8 rounded-full ${bgColor} shadow-lg text-white transform transition-transform duration-200 hover:scale-110">
+      <div class="relative flex items-center justify-center w-8 h-8 rounded-full ${bgColor} shadow-lg text-white transform transition-transform duration-200 hover:scale-115 cursor-pointer">
         ${iconSvg}
       </div>
     `,
     iconSize: [32, 32],
     iconAnchor: [16, 32],
-    popupAnchor: [0, -32],
+    tooltipAnchor: [0, -32],
   });
 }
 
@@ -67,7 +65,7 @@ function MapController({
   useEffect(() => {
     if (selectedSite) {
       map.flyTo([selectedSite.coordinates.lat, selectedSite.coordinates.lng], 14, {
-        duration: 1.2,
+        duration: 1.0,
       });
     }
   }, [selectedSite, map]);
@@ -75,7 +73,7 @@ function MapController({
   useEffect(() => {
     if (userLocation && !selectedSite) {
       map.flyTo([userLocation.lat, userLocation.lng], 13, {
-        duration: 1.2,
+        duration: 1.0,
       });
     }
   }, [userLocation, selectedSite, map]);
@@ -112,9 +110,9 @@ export default function RecyclingMap({
 
         {userLocation && (
           <Marker position={[userLocation.lat, userLocation.lng]} icon={userLocationIcon}>
-            <Popup>
-              <div className="font-semibold text-xs text-sky-800">Your Current Location</div>
-            </Popup>
+            <Tooltip direction="top" offset={[0, -12]}>
+              <span className="font-semibold text-xs text-sky-800">Your Location</span>
+            </Tooltip>
           </Marker>
         )}
 
@@ -127,69 +125,19 @@ export default function RecyclingMap({
               key={site.id}
               position={[site.coordinates.lat, site.coordinates.lng]}
               icon={icon}
+              zIndexOffset={isSelected ? 1000 : 0}
               eventHandlers={{
                 click: () => onSelectSite(site),
               }}
             >
-              <Popup className="recycling-popup">
-                <div className="p-1 max-w-[260px] text-slate-800">
-                  <div className="flex items-center gap-1.5 mb-1">
-                    <span
-                      className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider text-white ${
-                        site.facilityType === 'dsny_special_waste'
-                          ? 'bg-amber-600'
-                          : 'bg-blue-600'
-                      }`}
-                    >
-                      {site.facilityType === 'dsny_special_waste'
-                        ? 'DSNY Special Waste'
-                        : 'Electronics Partner'}
-                    </span>
-                    <span className="text-[11px] text-slate-500 font-medium">
-                      {site.borough}
-                    </span>
-                  </div>
-
-                  <h3 className="font-bold text-sm text-slate-900 leading-snug mb-1">
-                    {site.name}
-                  </h3>
-                  <p className="text-xs text-slate-600 mb-2 flex items-start gap-1">
-                    <MapPin className="w-3.5 h-3.5 shrink-0 mt-0.5 text-slate-400" />
-                    <span>
-                      {site.address}
-                      {site.neighborhood ? `, ${site.neighborhood}` : ''}
-                      {site.distanceInMiles !== undefined && (
-                        <strong className="block text-emerald-700 font-semibold mt-0.5">
-                          {site.distanceInMiles} miles away
-                        </strong>
-                      )}
-                    </span>
-                  </p>
-
-                  <div className="text-[11px] text-slate-500 mb-2 space-y-1 bg-slate-50 p-2 rounded border border-slate-100">
-                    <div className="flex items-start gap-1">
-                      <Clock className="w-3 h-3 shrink-0 mt-0.5 text-slate-400" />
-                      <span>{site.hours}</span>
-                    </div>
-                    {site.requirements && (
-                      <div className="flex items-start gap-1 text-amber-700 font-medium">
-                        <ShieldAlert className="w-3 h-3 shrink-0 mt-0.5 text-amber-500" />
-                        <span>{site.requirements}</span>
-                      </div>
-                    )}
-                  </div>
-
-                  <a
-                    href={getDirectionsUrl(site.coordinates.lat, site.coordinates.lng, site.address)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center gap-1.5 w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium text-xs py-1.5 px-3 rounded-lg transition-colors"
-                  >
-                    <span>Get Directions</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
+              <Tooltip direction="top" offset={[0, -28]} opacity={0.95}>
+                <div className="text-xs font-semibold py-0.5">
+                  <span className="text-slate-900">{site.name}</span>
+                  <span className="block text-[10px] text-slate-500 font-normal">
+                    Click to view details in sidebar
+                  </span>
                 </div>
-              </Popup>
+              </Tooltip>
             </Marker>
           );
         })}

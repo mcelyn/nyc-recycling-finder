@@ -76,6 +76,24 @@ export default function HomePage() {
     handleClearLocation();
   };
 
+  const handleSelectSite = (site: RecyclingSite) => {
+    setSelectedSite(site);
+    setTimeout(() => {
+      const el = document.getElementById(`site-card-${site.id}`);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    }, 50);
+  };
+
+  const handleToggleExpand = (site: RecyclingSite) => {
+    if (selectedSite?.id === site.id) {
+      setSelectedSite(null);
+    } else {
+      handleSelectSite(site);
+    }
+  };
+
   // Determine reference coordinate for proximity sorting (user GPS or selected ZIP code centroid)
   const referencePoint = useMemo(() => {
     if (userLocation) return userLocation;
@@ -277,8 +295,8 @@ export default function HomePage() {
                 <SiteCard
                   key={site.id}
                   site={site}
-                  isSelected={selectedSite?.id === site.id}
-                  onSelect={(s) => setSelectedSite(s)}
+                  isExpanded={selectedSite?.id === site.id}
+                  onToggleExpand={() => handleToggleExpand(site)}
                 />
               ))
             )}
@@ -289,7 +307,7 @@ export default function HomePage() {
             <RecyclingMap
               sites={filteredSites}
               selectedSite={selectedSite}
-              onSelectSite={(s) => setSelectedSite(s)}
+              onSelectSite={(s) => handleSelectSite(s)}
               userLocation={referencePoint}
             />
           </div>
