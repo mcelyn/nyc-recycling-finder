@@ -84,14 +84,9 @@ export default function SiteCard({
         </div>
 
         {!isExpanded && (
-          <div className="flex items-center justify-between mt-2 pt-2 border-t border-slate-100 text-[11px] text-slate-500">
-            <span className="flex items-center gap-1 truncate max-w-[240px]">
-              <Clock className="w-3 h-3 text-slate-400 shrink-0" />
-              <span className="truncate">{site.hours}</span>
-            </span>
-            <span className="text-emerald-700 font-semibold shrink-0 ml-2">
-              Tap to expand &rarr;
-            </span>
+          <div className="flex items-center gap-1 mt-2 pt-2 border-t border-slate-100 text-[11px] text-slate-500">
+            <Clock className="w-3 h-3 text-slate-400 shrink-0" />
+            <span className="truncate">{site.hours}</span>
           </div>
         )}
       </button>
