@@ -33,3 +33,12 @@ body {
   background: transparent;
   border: none;
 }
+
+/* Optimize map tile rendering speed and clarity */
+.leaflet-container {
+  background-color: #e2e8f0;
+}
+
+.leaflet-tile {
+  will-change: transform, opacity;
+}

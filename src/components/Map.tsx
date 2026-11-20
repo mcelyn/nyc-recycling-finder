@@ -101,9 +101,11 @@ export default function RecyclingMap({
         style={{ minHeight: '100%', height: '100%', width: '100%' }}
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='Tiles &copy; <a href="https://www.esri.com/">Esri</a> &mdash; Street Map'
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
           maxZoom={19}
+          keepBuffer={8}
+          updateInterval={100}
         />
 
         <MapController selectedSite={selectedSite} userLocation={userLocation} />
