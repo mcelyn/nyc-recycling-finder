@@ -341,7 +341,10 @@ export default function HomePage() {
         </div>
 
         {/* 2-Column Split: Directory List + Sticky Map */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start pb-16 lg:pb-0">
+        <div
+          id="results-section"
+          className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start pb-16 lg:pb-0 scroll-mt-24"
+        >
           {/* Left Column: Locations Directory */}
           <div
             className={`lg:col-span-5 flex-col space-y-3 order-2 lg:order-1 ${
