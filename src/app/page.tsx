@@ -385,6 +385,7 @@ export default function HomePage() {
                   site={site}
                   isExpanded={selectedSite?.id === site.id}
                   onToggleExpand={() => handleToggleExpand(site)}
+                  selectedItem={selectedItem}
                   isHovered={hoveredSiteId === site.id}
                   onMouseEnter={() => setHoveredSiteId(site.id)}
                   onMouseLeave={() => setHoveredSiteId(null)}
