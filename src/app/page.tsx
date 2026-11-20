@@ -195,14 +195,18 @@ export default function HomePage() {
       {/* Top Banner / Navigation */}
       <header className="bg-white border-b border-slate-200 sticky top-0 z-40 backdrop-blur-md bg-white/95">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex flex-col lg:flex-row items-center justify-between gap-4">
-          {/* Logo & Title */}
-          <div className="flex items-center gap-3 w-full lg:w-auto shrink-0">
-            <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-md shrink-0">
+          {/* Logo & Title as Hyperlink */}
+          <a
+            href="/"
+            className="flex items-center gap-3 w-full lg:w-auto shrink-0 group focus:outline-none cursor-pointer select-none"
+            title="Refresh NYC Special Waste Finder"
+          >
+            <div className="w-10 h-10 rounded-xl bg-emerald-600 group-hover:bg-emerald-700 text-white flex items-center justify-center shadow-md shrink-0 transition-colors">
               <Recycle className="w-6 h-6" />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h1 className="font-extrabold text-lg text-slate-900 tracking-tight">
+                <h1 className="font-extrabold text-lg text-slate-900 group-hover:text-emerald-700 tracking-tight transition-colors">
                   NYC Special Waste Finder
                 </h1>
                 <span className="text-[10px] bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded-full uppercase">
@@ -213,7 +217,7 @@ export default function HomePage() {
                 Safe disposal for electronics, hazardous waste, batteries & special items
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Unified Search Pill Container */}
           <div className="w-full lg:max-w-3xl bg-white border border-slate-300 rounded-2xl shadow-xs hover:border-slate-400 focus-within:ring-2 focus-within:ring-emerald-500 focus-within:border-transparent flex flex-col sm:flex-row items-stretch divide-y sm:divide-y-0 sm:divide-x divide-slate-200 transition-all">
