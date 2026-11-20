@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useMemo } from 'react';
+import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import { RecyclingSite } from '@/types/recycling';
