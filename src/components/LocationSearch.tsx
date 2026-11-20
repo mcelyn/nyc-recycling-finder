@@ -14,6 +14,7 @@ interface LocationSearchProps {
   isLocating: boolean;
   hasUserLocation: boolean;
   onClearLocation: () => void;
+  embedded?: boolean;
 }
 
 const BOROUGHS: (Borough | 'All')[] = [
@@ -34,6 +35,7 @@ export default function LocationSearch({
   isLocating,
   hasUserLocation,
   onClearLocation,
+  embedded = false,
 }: LocationSearchProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [inputValue, setInputValue] = useState('');
@@ -122,7 +124,7 @@ export default function LocationSearch({
   const isFiltered = hasUserLocation || selectedZip || selectedBorough !== 'All';
 
   return (
-    <div ref={containerRef} className="relative w-full md:max-w-xs">
+    <div ref={containerRef} className={`relative w-full ${embedded ? '' : 'md:max-w-xs'}`}>
       <div className="relative flex items-center">
         {hasUserLocation ? (
           <Navigation className="absolute left-3.5 w-4 h-4 text-sky-600 fill-sky-600 pointer-events-none" />
@@ -140,7 +142,11 @@ export default function LocationSearch({
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
           placeholder="Borough, ZIP, or Near Me..."
-          className="w-full pl-10 pr-9 py-3.5 bg-white border border-slate-300 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-slate-800 placeholder-slate-400 text-sm transition-all"
+          className={`w-full pl-10 pr-9 py-3 text-slate-800 placeholder-slate-400 text-sm focus:outline-none transition-all ${
+            embedded
+              ? 'bg-transparent'
+              : 'bg-white border border-slate-300 rounded-2xl shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent py-3.5'
+          }`}
         />
 
         {isFiltered ? (

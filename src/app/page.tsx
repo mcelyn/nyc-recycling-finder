@@ -214,10 +214,11 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Consolidated Search Controls (Item Search + Location Input side-by-side) */}
-          <div className="w-full lg:max-w-3xl flex flex-col sm:flex-row items-center gap-2.5">
-            <div className="flex-1 w-full">
+          {/* Unified Search Pill Container */}
+          <div className="w-full lg:max-w-3xl bg-white border border-slate-300 rounded-2xl shadow-xs hover:border-slate-400 focus-within:ring-2 focus-within:ring-emerald-500 focus-within:border-transparent flex flex-col sm:flex-row items-stretch divide-y sm:divide-y-0 sm:divide-x divide-slate-200 transition-all">
+            <div className="flex-1 w-full min-w-0">
               <ItemSearch
+                embedded
                 items={allItems}
                 selectedItem={selectedItem}
                 onSelectItem={(item) => {
@@ -228,6 +229,7 @@ export default function HomePage() {
             </div>
             <div className="w-full sm:w-72 shrink-0">
               <LocationSearch
+                embedded
                 selectedBorough={selectedBorough}
                 onSelectBorough={(boro) => {
                   setSelectedBorough(boro);

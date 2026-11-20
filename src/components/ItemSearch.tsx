@@ -9,12 +9,14 @@ interface ItemSearchProps {
   items: RecyclingItem[];
   selectedItem: RecyclingItem | null;
   onSelectItem: (item: RecyclingItem | null) => void;
+  embedded?: boolean;
 }
 
 export default function ItemSearch({
   items,
   selectedItem,
   onSelectItem,
+  embedded = false,
 }: ItemSearchProps) {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
@@ -61,9 +63,9 @@ export default function ItemSearch({
   };
 
   return (
-    <div ref={containerRef} className="relative w-full max-w-2xl">
+    <div ref={containerRef} className={`relative w-full ${embedded ? '' : 'max-w-2xl'}`}>
       <div className="relative flex items-center">
-        <Search className="absolute left-4 w-5 h-5 text-slate-400 pointer-events-none" />
+        <Search className="absolute left-3.5 w-4 h-4 text-slate-400 pointer-events-none" />
         <input
           type="text"
           value={query}
@@ -72,14 +74,18 @@ export default function ItemSearch({
             setIsOpen(true);
           }}
           onFocus={() => setIsOpen(true)}
-          placeholder="Search everyday items (e.g., nail polish, battery, laptop, paint, TV)..."
-          className="w-full pl-12 pr-10 py-3.5 bg-white border border-slate-300 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent text-slate-800 placeholder-slate-400 text-sm md:text-base transition-all"
+          placeholder="Search everyday items (e.g., nail polish, battery, laptop, paint)..."
+          className={`w-full pl-10 pr-9 py-3 text-slate-800 placeholder-slate-400 text-sm focus:outline-none transition-all ${
+            embedded
+              ? 'bg-transparent'
+              : 'bg-white border border-slate-300 rounded-2xl shadow-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent py-3.5 pl-12 pr-10'
+          }`}
         />
         {query && (
           <button
             type="button"
             onClick={handleClear}
-            className="absolute right-3.5 p-1 rounded-full text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors"
+            className="absolute right-2.5 p-1 rounded-full text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors"
             aria-label="Clear search"
           >
             <X className="w-4 h-4" />
