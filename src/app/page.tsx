@@ -42,6 +42,7 @@ export default function HomePage() {
   const [selectedBorough, setSelectedBorough] = useState<Borough | 'All'>('All');
   const [selectedZip, setSelectedZip] = useState<string | null>(null);
   const [selectedSite, setSelectedSite] = useState<RecyclingSite | null>(null);
+  const [hoveredSiteId, setHoveredSiteId] = useState<string | null>(null);
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [isLocating, setIsLocating] = useState(false);
   const [geoError, setGeoError] = useState<string | null>(null);
@@ -370,6 +371,9 @@ export default function HomePage() {
                   site={site}
                   isExpanded={selectedSite?.id === site.id}
                   onToggleExpand={() => handleToggleExpand(site)}
+                  isHovered={hoveredSiteId === site.id}
+                  onMouseEnter={() => setHoveredSiteId(site.id)}
+                  onMouseLeave={() => setHoveredSiteId(null)}
                 />
               ))
             )}
@@ -381,6 +385,8 @@ export default function HomePage() {
               sites={filteredSites}
               selectedSite={selectedSite}
               onSelectSite={(s) => handleSelectSite(s)}
+              hoveredSiteId={hoveredSiteId}
+              onHoverSite={setHoveredSiteId}
               userLocation={referencePoint}
             />
           </div>

@@ -20,22 +20,32 @@ interface SiteCardProps {
   site: RecyclingSite;
   isExpanded: boolean;
   onToggleExpand: () => void;
+  isHovered?: boolean;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 }
 
 export default function SiteCard({
   site,
   isExpanded,
   onToggleExpand,
+  isHovered = false,
+  onMouseEnter,
+  onMouseLeave,
 }: SiteCardProps) {
   const isDsny = site.facilityType === 'dsny_special_waste';
 
   return (
     <div
       id={`site-card-${site.id}`}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       className={`rounded-2xl border transition-all duration-200 text-left overflow-hidden ${
         isExpanded
           ? 'bg-white border-emerald-500 shadow-md ring-2 ring-emerald-500/20'
-          : 'bg-white border-slate-200 hover:border-slate-300 hover:shadow-sm'
+          : isHovered
+          ? 'bg-emerald-50/40 border-emerald-400 shadow-md translate-y-[-1px]'
+          : 'bg-white border-slate-200 hover:border-slate-300 hover:shadow-xs'
       }`}
     >
       {/* Clickable Header */}

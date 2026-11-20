@@ -10,11 +10,13 @@ interface MapProps {
   sites: RecyclingSite[];
   selectedSite: RecyclingSite | null;
   onSelectSite: (site: RecyclingSite) => void;
+  hoveredSiteId: string | null;
+  onHoverSite: (id: string | null) => void;
   userLocation: { lat: number; lng: number } | null;
 }
 
 // Custom Leaflet DivIcons using Tailwind CSS
-function createPinIcon(type: string, isSelected: boolean) {
+function createPinIcon(type: string, isSelected: boolean, isHovered: boolean) {
   let bgColor = 'bg-blue-600';
   let iconSvg = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="12" x="3" y="4" rx="2"/><line x1="2" x2="22" y1="20" y2="20"/></svg>`;
 
@@ -24,13 +26,17 @@ function createPinIcon(type: string, isSelected: boolean) {
   }
 
   if (isSelected) {
-    bgColor = 'bg-emerald-600 ring-4 ring-emerald-300 scale-125 z-50';
+    bgColor = 'bg-emerald-600 ring-4 ring-emerald-300 scale-125 z-50 shadow-xl';
+  } else if (isHovered) {
+    bgColor = type === 'dsny_special_waste'
+      ? 'bg-amber-500 ring-4 ring-amber-300 scale-125 z-40 shadow-xl'
+      : 'bg-blue-500 ring-4 ring-sky-300 scale-125 z-40 shadow-xl';
   }
 
   return L.divIcon({
     className: 'custom-pin',
     html: `
-      <div class="relative flex items-center justify-center w-8 h-8 rounded-full ${bgColor} shadow-lg text-white transform transition-transform duration-200 hover:scale-115 cursor-pointer">
+      <div class="relative flex items-center justify-center w-8 h-8 rounded-full ${bgColor} shadow-lg text-white transform transition-all duration-200 hover:scale-125 cursor-pointer">
         ${iconSvg}
       </div>
     `,
@@ -85,6 +91,8 @@ export default function RecyclingMap({
   sites,
   selectedSite,
   onSelectSite,
+  hoveredSiteId,
+  onHoverSite,
   userLocation,
 }: MapProps) {
   const defaultCenter = useMemo<[number, number]>(() => [40.7128, -73.98], []);
@@ -118,16 +126,19 @@ export default function RecyclingMap({
 
         {sites.map((site) => {
           const isSelected = selectedSite?.id === site.id;
-          const icon = createPinIcon(site.facilityType, isSelected);
+          const isHovered = hoveredSiteId === site.id;
+          const icon = createPinIcon(site.facilityType, isSelected, isHovered);
 
           return (
             <Marker
               key={site.id}
               position={[site.coordinates.lat, site.coordinates.lng]}
               icon={icon}
-              zIndexOffset={isSelected ? 1000 : 0}
+              zIndexOffset={isSelected ? 2000 : isHovered ? 1500 : 0}
               eventHandlers={{
                 click: () => onSelectSite(site),
+                mouseover: () => onHoverSite(site.id),
+                mouseout: () => onHoverSite(null),
               }}
             >
               <Tooltip direction="top" offset={[0, -28]} opacity={0.95}>
